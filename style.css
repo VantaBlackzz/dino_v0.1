@@ -1,3 +1,9 @@
+body {
+margin: 0;
+padding: 0;
+background-color: burlywood;
+}
+
 .container {
 display: flex;
 margin: 12% auto;
@@ -80,4 +86,13 @@ left: 30px;
     100% {
         top: 150px;
     }
+}
+.score {
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.number {
+    margin-top: 0px;
+    margin-left: 30px;
 }
